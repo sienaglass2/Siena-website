@@ -1,13 +1,227 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Personal Website</title>
-</head>
-<body>
-  <h1>Welcome to My Website!</h1>
-  <p>I'm a finance student at Tulane University.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Siena Glass is a sophomore finance major at Tulane University's A. B. Freeman School of Business, interested in wealth management, sales, and consulting."
+    />
+    <title>Siena Glass | Finance Student</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#top" class="brand">Siena<span>Glass</span></a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#leadership">Leadership</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Tulane University • Finance Major</p>
+            <h1>Building a future in finance, strategy, and client growth.</h1>
+            <p class="lead">
+              I’m Siena Glass, a sophomore finance major at Tulane University’s A. B. Freeman
+              School of Business, with a passion for wealth management, sales, and consulting.
+            </p>
+            <div class="hero-actions">
+              <a href="#experience" class="button primary">View Experience</a>
+              <a href="#contact" class="button secondary">Let’s Connect</a>
+            </div>
+            <ul class="quick-facts" aria-label="Key interests">
+              <li>Wealth Management</li>
+              <li>Sales</li>
+              <li>Consulting</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile summary">
+            <div class="profile-badge">Finance Student</div>
+            <h2>Siena Glass</h2>
+            <p>
+              Sophomore at Tulane University’s A. B. Freeman School of Business, focused on
+              developing practical business insight and building strong client relationships.
+            </p>
+            <div class="mini-stats">
+              <div>
+                <strong>2nd</strong>
+                <span>Year</span>
+              </div>
+              <div>
+                <strong>Finance</strong>
+                <span>Major</span>
+              </div>
+              <div>
+                <strong>New Orleans</strong>
+                <span>Based</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container section-header">
+          <p class="eyebrow">About Me</p>
+          <h2>Driven by strategic thinking and meaningful client impact.</h2>
+        </div>
+        <div class="container about-grid">
+          <div class="about-card">
+            <p>
+              I am a sophomore finance major at Tulane University’s A. B. Freeman School of Business,
+              with a growing interest in the intersection of financial strategy and client-facing
+              advisory work.
+            </p>
+            <p>
+              My academic and professional pursuits have shaped my interest in wealth management,
+              sales, and consulting, where I enjoy translating insights into action and helping clients
+              achieve their goals.
+            </p>
+          </div>
+          <div class="about-card emphasis">
+            <h3>Core interests</h3>
+            <ul>
+              <li>Wealth management and long-term client planning</li>
+              <li>Business development and consultative sales</li>
+              <li>Strategic problem-solving and relationship building</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt-bg">
+        <div class="container section-header">
+          <p class="eyebrow">Experience</p>
+          <h2>Hands-on experience in sales and marketing.</h2>
+        </div>
+        <div class="container timeline">
+          <article class="experience-card">
+            <div class="card-topline">
+              <span class="role">Sales and Marketing Intern</span>
+              <span class="company">Aqua Conscience</span>
+            </div>
+            <p>
+              In my Sales and Marketing Internship at Aqua Conscience, I developed a stronger
+              understanding of client engagement, branding, and outreach strategy while contributing
+              to initiatives that supported business growth and market visibility.
+            </p>
+            <ul>
+              <li>Supported sales and marketing efforts to strengthen brand awareness</li>
+              <li>Developed communication and relationship-building skills with prospects and clients</li>
+              <li>Gained exposure to customer-facing business strategy and growth-focused execution</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="leadership" class="section">
+        <div class="container section-header">
+          <p class="eyebrow">Leadership</p>
+          <h2>Leading with purpose and building communities around business innovation.</h2>
+        </div>
+        <div class="container leadership-grid">
+          <article class="leadership-card">
+            <div class="card-topline">
+              <span class="role">Co-Founder & President</span>
+              <span class="company">AI & Business Strategy Association</span>
+            </div>
+            <p>
+              As Co-Founder and President of Tulane’s AI & Business Strategy Association, I help
+              create a space where students can explore the intersection of artificial intelligence,
+              business strategy, and career development.
+            </p>
+            <ul>
+              <li>Lead strategic planning and organizational direction</li>
+              <li>Build opportunities for student learning and professional development</li>
+              <li>Promote interdisciplinary dialogue around AI and business innovation</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container section-header">
+          <p class="eyebrow">Skills</p>
+          <h2>Professional strengths that support business and client success.</h2>
+        </div>
+        <div class="container skills-grid">
+          <div class="skill-card">
+            <h3>Business</h3>
+            <ul>
+              <li>Financial Analysis</li>
+              <li>Client Relationship Management</li>
+              <li>Market Research</li>
+              <li>Strategic Thinking</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Communication</h3>
+            <ul>
+              <li>Presentation Skills</li>
+              <li>Professional Networking</li>
+              <li>Written Communication</li>
+              <li>Negotiation</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Tools & Mindset</h3>
+            <ul>
+              <li>Microsoft Excel</li>
+              <li>PowerPoint</li>
+              <li>Sales Strategy</li>
+              <li>Adaptability & Initiative</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container section-header">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect and explore opportunities.</h2>
+        </div>
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <p>
+              I’m excited to connect with others interested in finance, sales, strategy, and business
+              development. I welcome opportunities to learn, collaborate, and grow.
+            </p>
+          </div>
+          <div class="contact-card details">
+            <ul>
+              <li><strong>Email:</strong> siena.glass@email.com</li>
+              <li><strong>LinkedIn:</strong> linkedin.com/in/sienaglass</li>
+              <li><strong>Location:</strong> New Orleans, Louisiana</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Siena Glass</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
